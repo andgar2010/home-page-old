@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>TECH-ANDGAR</title>
-    <link>https://andgar2010.github.io/es-419/</link>
+    <link>http://tech-andgar.me/es-419/</link>
     <description>Recent content on TECH-ANDGAR</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://andgar2010.github.io/es-419/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="http://tech-andgar.me/es-419/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Acerca de</title>
-      <link>https://andgar2010.github.io/es-419/about/</link>
+      <link>http://tech-andgar.me/es-419/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://andgar2010.github.io/es-419/about/</guid>
+      <guid>http://tech-andgar.me/es-419/about/</guid>
       <description>¡Hola! Soy Andrés, Soy una persona Sordo, mi lengua materna es Lengua de Señas Colombiana y me encanta estar detrás de un computador, puede ser investigando sobre nuevas tendencias en software, aprendiendo una nueva tecnología o viendo qué hay de nuevo en el mundo para encontrar nuevas formas de unir las lógicas y las comunicaciones.
 Desarrollador Junior Full-stack App movil Hibrido experiencia manejo de lenguajes de programación Front-end, Back-end y motores de bases de datos; con experiencia análisis y diseño base de datos.</description>
     </item>
     
     <item>
       <title>Contacto</title>
-      <link>https://andgar2010.github.io/es-419/contact/</link>
+      <link>http://tech-andgar.me/es-419/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://andgar2010.github.io/es-419/contact/</guid>
+      <guid>http://tech-andgar.me/es-419/contact/</guid>
       <description>H E L L O @ T E C H - A N D G A R . M E</description>
     </item>
     
     <item>
       <title>Proyectos</title>
-      <link>https://andgar2010.github.io/es-419/projects/</link>
+      <link>http://tech-andgar.me/es-419/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://andgar2010.github.io/es-419/projects/</guid>
+      <guid>http://tech-andgar.me/es-419/projects/</guid>
       <description>En construcción&amp;hellip; ¡Espere!
 Puedes mirar mi currículum o Linkedln, que tiene una breve descripción de los proyectos.</description>
     </item>
