@@ -3,123 +3,123 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tech-andgar.me/posts/notes-config-server/</loc>
+    <loc>https://tech-andgar.me/posts/notes-config-server/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/posts/</loc>
+    <loc>https://tech-andgar.me/posts/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/</loc>
+    <loc>https://tech-andgar.me/</loc>
     <lastmod>2020-02-20T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/"
+                href="https://tech-andgar.me/es-419/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/"
+                href="https://tech-andgar.me/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/about/</loc>
+    <loc>https://tech-andgar.me/about/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/about/"
+                href="https://tech-andgar.me/es-419/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/about/"
+                href="https://tech-andgar.me/about/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/categories/</loc>
+    <loc>https://tech-andgar.me/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/categories/"
+                href="https://tech-andgar.me/es-419/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/categories/"
+                href="https://tech-andgar.me/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/contact/</loc>
+    <loc>https://tech-andgar.me/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/contact/"
+                href="https://tech-andgar.me/es-419/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/contact/"
+                href="https://tech-andgar.me/contact/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/contact/</loc>
+    <loc>https://tech-andgar.me/contact/</loc>
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/projects/</loc>
+    <loc>https://tech-andgar.me/projects/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/projects/"
+                href="https://tech-andgar.me/es-419/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/projects/"
+                href="https://tech-andgar.me/projects/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/projects/</loc>
+    <loc>https://tech-andgar.me/projects/</loc>
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/series/</loc>
+    <loc>https://tech-andgar.me/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/series/"
+                href="https://tech-andgar.me/es-419/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/series/"
+                href="https://tech-andgar.me/series/"
                 />
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/about/</loc>
+    <loc>https://tech-andgar.me/about/</loc>
   </url>
   
   <url>
-    <loc>http://tech-andgar.me/tags/</loc>
+    <loc>https://tech-andgar.me/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es-419"
-                href="http://tech-andgar.me/es-419/tags/"
+                href="https://tech-andgar.me/es-419/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://tech-andgar.me/tags/"
+                href="https://tech-andgar.me/tags/"
                 />
   </url>
   
