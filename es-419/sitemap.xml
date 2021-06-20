@@ -1,46 +1,89 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://tech-andgar.me/es-419/about/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/about/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/about/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/about/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/categories/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/categories/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/categories/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/categories/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/contact/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/contact/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/contact/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/contact/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/contact/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/projects/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/projects/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/projects/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/projects/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/projects/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/series/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/series/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/series/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/series/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/tags/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/tags/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/tags/" />
-  </url>
-
-  <url>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/tags/"
+                />
+  </url><url>
     <loc>https://tech-andgar.me/es-419/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://tech-andgar.me/" />
-    <xhtml:link rel="alternate" hreflang="es-419" href="https://tech-andgar.me/es-419/" />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://tech-andgar.me/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es-419"
+                href="https://tech-andgar.me/es-419/"
+                />
   </url>
-
 </urlset>
