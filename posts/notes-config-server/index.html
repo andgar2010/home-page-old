@@ -57,7 +57,7 @@ TECH-ANDGAR
 <span>|</span>
 </li>
 <li class=navigation-item>
-<a href=https://tech-andgar.me/es-419/>Español</a>
+<a href=https://tech-andgar.me/es-419/>Español :spanish:</a>
 </li>
 </ul>
 </section>
@@ -86,36 +86,36 @@ February 20, 2020
 </header>
 <div>
 <h2 id=view-logs-ngnix>View logs ngnix</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cat /var/log/nginx/error.log
-<span style=font-style:italic># OR</span>
-$ sudo tail -n 20 /var/log/nginx/error.log
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cat /var/log/nginx/error.log
+<span style=color:#75715e># OR</span>
+$ sudo tail -n <span style=color:#ae81ff>20</span> /var/log/nginx/error.log
 </code></pre></div><h2 id=check-configuration-nginx>Check configuration nginx</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ nginx -c /etc/nginx/nginx.conf -t
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ nginx -c /etc/nginx/nginx.conf -t
 </code></pre></div><h2 id=reset-service-nginx-on-ubuntu>Reset service nginx on Ubuntu</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo systemctl restart nginx
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo systemctl restart nginx
 </code></pre></div><h2 id=reload-configuration-of-service-nginx-on-ubuntu>Reload configuration of service nginx on Ubuntu</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo systemctl reload nginx
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ sudo systemctl reload nginx
 </code></pre></div><h2 id=assign-permissitions-for-user-of-nginx-on-ubuntu>Assign permissitions for user of nginx on Ubuntu</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ chown -R www-data:www-data /var/www/domain.com/subdomain/*
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ chown -R www-data:www-data /var/www/domain.com/subdomain/*
 </code></pre></div><h2 id=copy-project-to-folder-www-public-nginx>Copy project to folder WWW public Nginx</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cp -rL /root/projects/project1/dist/public /var/www/domain.me/subdomain/project
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cp -rL /root/projects/project1/dist/public /var/www/domain.me/subdomain/project
 </code></pre></div><h2 id=fix-permissions-for-user-of-nginx-on-ubuntu>Fix permissions for user of nginx on Ubuntu</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ chmod -R 755 */   <span style=font-style:italic># or 751 Fix Permissions Folder</span>
-$ chmod -R 644 */*  <span style=font-style:italic># Fix Permissions Files</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ chmod -R <span style=color:#ae81ff>755</span> */   <span style=color:#75715e># or 751 Fix Permissions Folder</span>
+$ chmod -R <span style=color:#ae81ff>644</span> */*  <span style=color:#75715e># Fix Permissions Files</span>
 </code></pre></div><h2 id=copy-project-to-folder-www-public-nginx-and-fix-permissions>Copy project to folder WWW public Nginx and Fix permissions</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cp -rL /root/projects/Personal/demo_cobrandoAG/app/dist/pwa /var/www/tech-andgar.me/subdomain/pwa &amp;&amp; chmod -R 755 */ &amp;&amp; chmod -R 644 */*
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ cp -rL /root/projects/Personal/demo_cobrandoAG/app/dist/pwa /var/www/tech-andgar.me/subdomain/pwa <span style=color:#f92672>&amp;&amp;</span> chmod -R <span style=color:#ae81ff>755</span> */ <span style=color:#f92672>&amp;&amp;</span> chmod -R <span style=color:#ae81ff>644</span> */*
 </code></pre></div><h2 id=link-symbolic>Link symbolic</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ ln -s /root/projects/Personal/demo_cobrandoAG/app/dist/pwa/* /var/www/tech-andgar.me/subdomain/demo_cobrando
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ ln -s /root/projects/Personal/demo_cobrandoAG/app/dist/pwa/* /var/www/tech-andgar.me/subdomain/demo_cobrando
 
 $ ln -sv /root/projects/Personal/demo_cobrandoAG/app/dist/pwa /var/www/tech-andgar.me/subdomain
 </code></pre></div><h2 id=pm2-freeze-list-process-for-startup>PM2 Freeze list process for startup</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=font-style:italic># [PM2] Freeze a process list on reboot via:</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># [PM2] Freeze a process list on reboot via:</span>
 $ pm2 save
 </code></pre></div><h2 id=pm2-remove-startup>PM2 remove startup</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=font-style:italic># [PM2] Remove init script via:</span>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=color:#75715e># [PM2] Remove init script via:</span>
 $ pm2 unstartup systemd
 </code></pre></div><h2 id=git-push>Git push</h2>
-<div class=highlight><pre tabindex=0 style=background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ git push -u origin master
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>$ git push -u origin master
 </code></pre></div>
 </div>
 <footer>
