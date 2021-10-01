@@ -1,7 +1,7 @@
 +++
 date = "2021-09-30"
-title = "La cobertura de pruebas (Test Coverage)"
-slug = "La cobertura de pruebas (Test Coverage)"
+title = "La cobertura de pruebas (Test Coverage) en Flutter"
+slug = "La cobertura de pruebas (Test Coverage) en Flutter"
 tags = ["Flutter", "LCOV", "Test Coverage", "prueba de cobertura"]
 categories = ["Flutter"]
 +++
