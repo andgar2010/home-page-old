@@ -1,17 +1,17 @@
 baseURL = "https://tech-andgar.me/"
 title = "TECH-ANDGAR"
 theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+languageCode = "en"
+defaultContentLanguage = "en"
 paginate = 20
-canonifyURLs = true
-
+# canonifyURLs = true
 pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
 # Enable Disqus comments
 # disqusShortname = "andgar2010"
+
 [params]
 author = "Andrés García"
 description = "Andrés García's personal website"
@@ -19,7 +19,7 @@ keywords = "blog,developer,personal"
 info = "Developer Full Stack App Mobile Flutter"
 avatarURL = "images/avatar.jpg"
 #gravatar = "dev@tech-andgar.me"
-footercontent = "H E L L O @ T E C H - A N D G A R . M E"
+footerContent = "H E L L O @ T E C H - A N D G A R . M E"
 dateFormat = "January 2, 2006"
 hideFooter = false
 hideCredits = true
@@ -27,11 +27,9 @@ hideCopyright = false
 since = 2020
 
 # Git Commit in Footer, uncomment the line below to enable it
-# commit = "https://github.com/luizdepra/hugo-coder/tree/"
-
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
-
 # Specify light/dark colorscheme
 # Supported values:
 # "auto" (use preference set by browser)
@@ -40,19 +38,14 @@ rtl = false
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
-
 # Series see also post count
 maxSeeAlsoItems = 5
-
 # Enable Twemoji
 enableTwemoji = true
-
 # Custom CSS
 customCSS = []
-
 # Custom SCSS
 customSCSS = []
-
 # Custom JS
 customJS = []
 
@@ -99,7 +92,6 @@ stylesrc = [
 ]
 scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
 prefetchsrc = ["'self'"]
-
 # connect-src directive - defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
 
@@ -111,37 +103,37 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fab fa-github"
+icon = "fa fa-github"
 weight = 1
 url = "https://link.tech-andgar.me/github"
 
 # [[params.social]]
 # name = "Gitlab"
-# icon = "fab fa-gitlab"
+# icon = "fa fa-gitlab"
 # weight = 2
 # # url = "https://gitlab.com/andgar2010/"
 
 # [[params.social]]
 # name = "Twitter"
-# icon = "fab fa-twitter"
+# icon = "fa fa-twitter"
 # weight = 3
 # # url = "https://twitter.com/andgar2010/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fab fa-linkedin"
+icon = "fa fa-linkedin"
 weight = 4
 url = "https://link.tech-andgar.me/linkedin"
 
 # [[params.social]]
 # name = "Medium"
-# icon = "fab fa-medium"
+# icon = "fa fa-medium"
 # weight = 5
 # url = "https://medium.com/@andgar2010"
 
 # [[params.social]]
 # name = "RSS"
-# icon = "fas fa-rss"
+# icon = "fa fa-rss"
 # weight = 6
 # url = "https://tech-andgar.me/index.xml"
 # rel = "alternate"
@@ -149,16 +141,14 @@ url = "https://link.tech-andgar.me/linkedin"
 
 #[[params.social]]
 # name = "RSS"
-# icon = "fas fa-rss"
+# icon = "fa fa-rss"
 # weight = 6
 # url = "http://bit.ly/CertiSololearn-AndGar"
 # rel = "alternate"
 # type = "application/rss+xml"
 
-[languages]
-
 [languages.en]
-languageName = "English"
+languageName = ":uk:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -185,8 +175,9 @@ name = "CV"
 weight = 6
 url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
+
 [languages.es-419]
-languagename = "Español"
+languageName = ":spain:"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
@@ -194,9 +185,7 @@ author = "Andrés García"
 info = "Desarrollador Full Stack App Movil Flutter"
 description = "Sítio personal de Andrés García"
 keywords = "blog,desarrollador,personal"
-footercontent = "H E L L O @ T E C H - A N D G A R . M E"
-
-[languages.es-419.menu]
+footerContent = "H E L L O @ T E C H - A N D G A R . M E"
 
 [[languages.es-419.menu.main]]
 name = "Acerca de"
@@ -222,38 +211,3 @@ url = "contact/"
 name = "CV"
 weight = 6
 url = "https://link.tech-andgar.me/HV-AFGR-DEV"
-
-
-#    [languages.pt-br]
-#        languagename = "Português"
-#        title = "TECH-ANDGAR"
-#
-#        [languages.pt-br.params]
-#            author = "Andrés García"
-#            info = "Full Stack DevOps e Mágico"
-#            description = "Sítio pessoal de Andrés García"
-#            keywords = "blog,desenvolvedor,personal"
-#            footercontent = "H E L L O @ T E C H - A N D G A R . M E"
-#
-#        [languages.pt-br.menu]
-#
-#            [[languages.pt-br.menu.main]]
-#            name = "Sobre"
-#            weight = 1
-#            url = "about/"
-#
-#            [[languages.pt-br.menu.main]]
-#            name = "Blog"
-#            weight = 2
-#            url = "posts/"
-#
-#            [[languages.pt-br.menu.main]]
-#            name = "Projetos"
-#            weight = 3
-#            url = "projects/"
-#
-#            [[languages.pt-br.menu.main]]
-#            name = "Contato"
-#            weight = 5
-#            url = "contact/"
-#

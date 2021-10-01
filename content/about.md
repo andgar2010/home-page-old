@@ -1,7 +1,12 @@
 +++
 title = "About"
 slug = "about"
+description = "About Andres Garcia"
+date = "2020-02-28"
+aliases = ["about-us", "about-andres-garcia", "contact"]
+author = "Andrés García"
 +++
+
 
 Hi! I'm Andres, I am a Deaf person, my native language is Colombian Sign Language and I love to be behind a computer, it can be researching new trends in software, learning a new technology or seeing what's new in the world to find new ways to unite logic and communications.
 <!-- I have a thing for mobile development and backend, and love working on software development and UX! -->

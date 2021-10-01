@@ -1,7 +1,12 @@
 +++
 title = "Acerca de"
 slug = "about"
+description = "Acerca de Andres Garcia"
+date = "2020-02-28"
+aliases = ["about-us", "about-andres-garcia", "contacto"]
+author = "Andrés García"
 +++
+
 
 ¡Hola! Soy Andrés, Soy una persona Sordo, mi lengua materna es Lengua de Señas Colombiana y me encanta estar detrás de un computador, puede ser investigando sobre nuevas tendencias en software, aprendiendo una nueva tecnología o viendo qué hay de nuevo en el mundo para encontrar nuevas formas de unir las lógicas y las comunicaciones.
 
