@@ -43,7 +43,9 @@ maxSeeAlsoItems = 5
 # Enable Twemoji
 enableTwemoji = true
 # Custom CSS
-customCSS = []
+customCSS = [
+  "css/custom.css",
+]
 # Custom SCSS
 customSCSS = []
 # Custom JS
@@ -79,7 +81,12 @@ id = "UA-33194632-1"
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
 childsrc = ["'self'"]
-fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
+fontsrc = [
+  "'self'",
+  "data:",
+  "https://fonts.gstatic.com",
+  "https://cdn.jsdelivr.net/",
+]
 formaction = ["'self'"]
 framesrc = [
   "'self'",
@@ -87,6 +94,7 @@ framesrc = [
 ]
 imgsrc = [
   "'self'",
+  "data:",
   "https://www.google-analytics.com",
   "https://twemoji.maxcdn.com",
   "https://i.vimeocdn.com",
@@ -99,7 +107,7 @@ stylesrc = [
   "'unsafe-inline'",
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/",
-  "data:text/css;",
+  "data:",
   # "*",
   # "data:;",
   # "data:*;",
