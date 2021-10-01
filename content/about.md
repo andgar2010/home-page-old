@@ -3,16 +3,25 @@ title = "About"
 slug = "about"
 +++
 
-Hi! I'm Andres and I love to be behind a computer, it can be researching new trends in software, learning a new technology or seeing what's new in the world to find new ways to unite logic and communications.
+Hi! I'm Andres, I am a Deaf person, my native language is Colombian Sign Language and I love to be behind a computer, it can be researching new trends in software, learning a new technology or seeing what's new in the world to find new ways to unite logic and communications.
 <!-- I have a thing for mobile development and backend, and love working on software development and UX! -->
 
-Full-stack Mobile App Developer Hybrid experience handling Front-end, Back-end programming languages and database engines; with experience in database analysis and design. Mobile App and web application development. Manages Linux servers. Proactive, innovative, with initiative, persistence, information search, critical thinking and decision making.
+Technologist specialized in application development for mobile devices with solid experience in mobile front-end in Flutter.
 
-I am a Deaf Full-Stack App Mobile Hybrid Developer graduated from SENA and have degrees from:
+Technologist in Analysis and development in information systems with
+Front-end knowledge of HTML, CSS, Javascript, Vue.js and Typescript.
+Solid understanding of design principles, UI/UX and responsive design, PWAs, Clean Architecture.
+Back-end experience using Node.js/Express, Loopback 3/4, Nest, Directus, Auth (JWT), Security, RESTful APIs and GraphQL.
+DevOps experience with CI/CD, Docker, manage Linux servers and microservices architectures.
+Relational and non-relational database analysis, design, administration using MySQL, MariaDB, MongoDB, PostgreSQL and Firebase.
+
+Proactive, innovative, self-starter with initiative, analytical skills, decision making, strong work ethic and high level of professionalism.
+
+I am a Deaf Full-Stack App Mobile Flutter Developer graduated from SENA and have degrees from:
 
 * **National Learning Service SENA-MARKET MANAGEMENT, LOGISTICS AND INFORMATION TECHNOLOGY CENTRE (CGMLTI)-Regional Capital District. Bogotá D.C.**
 
-  Technological Specialization in Application Development for Mobile Devices (In progress) (2019)
+  Technological Specialization in Application Development for Mobile Devices (2020)
 
 * **National Learning Service SENA-ELECTRICITY, ELECTRONICS AND TELECOMMUNICATIONS CENTRE (CEET)-Regional Capital District. Bogotá D.C.**
 
