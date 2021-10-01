@@ -112,17 +112,17 @@ icon = "fab fa-github"
 weight = 1
 url = "https://link.tech-andgar.me/github"
 
-[[params.social]]
-name = "Gitlab"
-icon = "fab fa-gitlab"
-weight = 2
-# url = "https://gitlab.com/andgar2010/"
+# [[params.social]]
+# name = "Gitlab"
+# icon = "fab fa-gitlab"
+# weight = 2
+# # url = "https://gitlab.com/andgar2010/"
 
-[[params.social]]
-name = "Twitter"
-icon = "fab fa-twitter"
-weight = 3
-# url = "https://twitter.com/andgar2010/"
+# [[params.social]]
+# name = "Twitter"
+# icon = "fab fa-twitter"
+# weight = 3
+# # url = "https://twitter.com/andgar2010/"
 
 [[params.social]]
 name = "LinkedIn"
@@ -130,19 +130,19 @@ icon = "fab fa-linkedin"
 weight = 4
 url = "https://link.tech-andgar.me/linkedin"
 
-[[params.social]]
-name = "Medium"
-icon = "fab fa-medium"
-weight = 5
-url = "https://medium.com/@andgar2010"
+# [[params.social]]
+# name = "Medium"
+# icon = "fab fa-medium"
+# weight = 5
+# url = "https://medium.com/@andgar2010"
 
-[[params.social]]
-name = "RSS"
-icon = "fas fa-rss"
-weight = 6
-url = "https://tech-andgar.me/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+# [[params.social]]
+# name = "RSS"
+# icon = "fas fa-rss"
+# weight = 6
+# url = "https://tech-andgar.me/index.xml"
+# rel = "alternate"
+# type = "application/rss+xml"
 
 #[[params.social]]
 # name = "RSS"
