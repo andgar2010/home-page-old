@@ -16,8 +16,8 @@ enableEmoji = true
 author = "Andrés García"
 description = "Andrés García's personal website"
 keywords = "blog,developer,personal"
-info = ["Developer Full Stack App Mobile Flutter"]
-avatarURL = ["images/avatar.jpg"]
+info = "Developer Full Stack App Mobile Flutter"
+avatarURL = "images/avatar.jpg"
 #gravatar = "dev@tech-andgar.me"
 footercontent = "H E L L O @ T E C H - A N D G A R . M E"
 dateFormat = "January 2, 2006"
@@ -155,7 +155,7 @@ type = "application/rss+xml"
 [languages]
 
 [languages.en]
-languageName = "English :us:"
+languageName = ":us:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -183,7 +183,7 @@ weight = 6
 url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 [languages.es-419]
-languagename = "Español"
+languagename = ":ES:"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
