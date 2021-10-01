@@ -41,7 +41,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Enable Twemoji
-enableTwemoji = false
+enableTwemoji = true
 # Custom CSS
 customCSS = []
 # Custom SCSS
@@ -81,8 +81,18 @@ id = "UA-33194632-1"
 childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
-framesrc = ["'self'"]
-imgsrc = ["'self'"]
+framesrc = [
+  "'self'",
+  "https://www.youtube.com"
+]
+imgsrc = [
+  "'self'",
+  "https://www.google-analytics.com",
+  "https://twemoji.maxcdn.com",
+  "https://i.vimeocdn.com",
+  "https://i.ytimg.com",
+  "https://user-images.githubusercontent.com"
+]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
@@ -90,7 +100,16 @@ stylesrc = [
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
+scriptsrc = [
+  "'self'",
+  "'unsafe-inline'",
+  "https://www.google-analytics.com",
+  "https://static.cloudflareinsights.com",
+  "https://www.googletagmanager.com/",
+  "https://twemoji.maxcdn.com",
+  "https://polyfill.io",
+  "https://cdn.jsdelivr.net"
+]
 prefetchsrc = ["'self'"]
 # connect-src directive - defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
@@ -148,7 +167,7 @@ url = "https://link.tech-andgar.me/linkedin"
 # type = "application/rss+xml"
 
 [languages.en]
-languageName = ":uk:"
+languageName = "English :uk:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -177,7 +196,7 @@ url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 
 [languages.es-419]
-languageName = ":spain:"
+languageName = "Español :es:"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
@@ -210,4 +229,4 @@ url = "contact/"
 [[languages.es-419.menu.main]]
 name = "CV"
 weight = 6
-url = "https://link.tech-andgar.me/HV-AFGR-DEV"
+url = "https://link.tech-andgar.me/CV-AFGR-DEV"
