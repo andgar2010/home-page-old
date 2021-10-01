@@ -6,7 +6,7 @@ defaultcontentlanguage = "en"
 paginate = 20
 canonifyURLs = true
 
-pygmentsStyle = "bw"
+pygmentsStyle = "monokai"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
 enableEmoji = true
@@ -45,7 +45,8 @@ hideColorSchemeToggle = false
 maxSeeAlsoItems = 5
 
 # Enable Twemoji
-enableTwemoji = false
+enableTwemoji = true
+
 # Custom CSS
 customCSS = []
 
@@ -54,6 +55,7 @@ customSCSS = []
 
 # Custom JS
 customJS = []
+
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
 # siteID = "ABCDE"
@@ -97,6 +99,7 @@ stylesrc = [
 ]
 scriptsrc = ["'self'", "'unsafe-inline'", "https://www.google-analytics.com"]
 prefetchsrc = ["'self'"]
+
 # connect-src directive - defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://www.google-analytics.com"]
 
@@ -155,7 +158,7 @@ url = "https://link.tech-andgar.me/linkedin"
 [languages]
 
 [languages.en]
-languageName = "English"
+languageName = "English :uk:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -183,7 +186,7 @@ weight = 6
 url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 [languages.es-419]
-languagename = "Español"
+languagename = "Español :spanish:"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
