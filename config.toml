@@ -79,55 +79,55 @@ customJS = []
 id = "UA-33194632-1"
 
 # If you want to implement a Content-Security-Policy, add this section
-[params.csp]
-childsrc = ["'self'"]
-fontsrc = [
-  "'self'",
-  "data:",
-  "https://fonts.gstatic.com",
-  "https://cdn.jsdelivr.net/",
-]
-formaction = ["'self'"]
-framesrc = [
-  "'self'",
-  "https://www.youtube.com"
-]
-imgsrc = [
-  "'self'",
-  "data:",
-  "https://www.google-analytics.com",
-  "https://twemoji.maxcdn.com",
-  "https://i.vimeocdn.com",
-  "https://i.ytimg.com",
-  "https://user-images.githubusercontent.com"
-]
-objectsrc = ["'none'"]
-stylesrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/",
-  "data:",
-  # "*",
-  # "data:;",
-  # "data:*;",
-  # "data:;*",
-  # "data:*;*",
-  # "data:text/css;*",
-]
-scriptsrc = [
-  "'self'",
-  "'unsafe-inline'",
-  "https://www.google-analytics.com",
-  "https://static.cloudflareinsights.com",
-  "https://www.googletagmanager.com/",
-  "https://twemoji.maxcdn.com",
-  "https://polyfill.io",
-  "https://cdn.jsdelivr.net"
-]
-prefetchsrc = ["'self'"]
-# connect-src directive - defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://www.google-analytics.com"]
+# [params.csp]
+# childsrc = ["'self'"]
+# fontsrc = [
+#   "'self'",
+#   "data:",
+#   "https://fonts.gstatic.com",
+#   "https://cdn.jsdelivr.net/",
+# ]
+# formaction = ["'self'"]
+# framesrc = [
+#   "'self'",
+#   "https://www.youtube.com"
+# ]
+# imgsrc = [
+#   "'self'",
+#   "data:",
+#   "https://www.google-analytics.com",
+#   "https://twemoji.maxcdn.com",
+#   "https://i.vimeocdn.com",
+#   "https://i.ytimg.com",
+#   "https://user-images.githubusercontent.com"
+# ]
+# objectsrc = ["'none'"]
+# stylesrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://fonts.googleapis.com/",
+#   "https://cdn.jsdelivr.net/",
+#   "data:",
+#   # "*",
+#   # "data:;",
+#   # "data:*;",
+#   # "data:;*",
+#   # "data:*;*",
+#   # "data:text/css;*",
+# ]
+# scriptsrc = [
+#   "'self'",
+#   "'unsafe-inline'",
+#   "https://www.google-analytics.com",
+#   "https://static.cloudflareinsights.com",
+#   "https://www.googletagmanager.com/",
+#   "https://twemoji.maxcdn.com",
+#   "https://polyfill.io",
+#   "https://cdn.jsdelivr.net"
+# ]
+# prefetchsrc = ["'self'"]
+# # connect-src directive - defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
+# connectsrc = ["'self'", "https://www.google-analytics.com"]
 
 [taxonomies]
 category = "categories"
