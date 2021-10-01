@@ -43,9 +43,7 @@ maxSeeAlsoItems = 5
 # Enable Twemoji
 enableTwemoji = true
 # Custom CSS
-customCSS = [
-  "css/custom.css",
-]
+customCSS = []
 # Custom SCSS
 customSCSS = []
 # Custom JS
