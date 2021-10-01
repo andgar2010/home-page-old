@@ -99,7 +99,13 @@ stylesrc = [
   "'unsafe-inline'",
   "https://fonts.googleapis.com/",
   "https://cdn.jsdelivr.net/",
-  "*"
+  "data:text/css;",
+  # "*",
+  # "data:;",
+  # "data:*;",
+  # "data:;*",
+  # "data:*;*",
+  # "data:text/css;*",
 ]
 scriptsrc = [
   "'self'",
