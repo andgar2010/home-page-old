@@ -41,7 +41,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Enable Twemoji
-enableTwemoji = true
+enableTwemoji = false
 # Custom CSS
 customCSS = []
 # Custom SCSS
@@ -180,7 +180,7 @@ url = "https://link.tech-andgar.me/linkedin"
 # type = "application/rss+xml"
 
 [languages.en]
-languageName = "English :uk:"
+languageName = "English"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -209,7 +209,7 @@ url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 
 [languages.es-419]
-languageName = "Español :es:"
+languageName = "Español"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
