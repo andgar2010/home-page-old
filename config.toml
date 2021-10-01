@@ -155,7 +155,7 @@ url = "https://link.tech-andgar.me/linkedin"
 [languages]
 
 [languages.en]
-languageName = ":uk:"
+languageName = "English"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -183,7 +183,7 @@ weight = 6
 url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 [languages.es-419]
-languagename = ":spain:"
+languagename = "Español"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
