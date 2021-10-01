@@ -155,7 +155,7 @@ type = "application/rss+xml"
 [languages]
 
 [languages.en]
-languageName = ":us:"
+languageName = ":uk:"
 
 [[languages.en.menu.main]]
 name = "About"
@@ -183,7 +183,7 @@ weight = 6
 url = "https://link.tech-andgar.me/CV-AFGR-DEV"
 
 [languages.es-419]
-languagename = ":ES:"
+languagename = ":spain:"
 title = "TECH-ANDGAR"
 
 [languages.es-419.params]
